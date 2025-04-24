@@ -8,26 +8,38 @@
     <meta name="description" content="Esercitazione html e CSS">
     <!-- Titolo -->
     <title>Toboolist</title>
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- Stylesheet -->
      <link rel="stylesheet" href="css/style.css">   
 </head>
 <body>
     <!-- Banner -->
     <header>
-        <div class="header-content">
+        <div id="logo" class="container">
             <img src="./img/Logo.png" alt="Toboolist">
+            <h1>Toboolist</h1>
         </div>
     </header>
     <!-- Main Container-->
-    <main class="container">
-
+    <main>
+        <div class="card-header">
+            <section id="btn">
+                <button class="blue">Add Task</button> <button class="white">Add Section</button>
+            </section>    
+        </div>         
     <hr>
-    <!-- Container UL-->
+    <!-- Container Secondario -->
+    <div class="card-body">
+    <!-- UL -->
     <ul>
         <li></li>
         <li></li>
         <li></li>
     </ul>
+    </div>
     </main>        
 </body>
 </html>

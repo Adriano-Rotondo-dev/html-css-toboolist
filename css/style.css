@@ -9,19 +9,49 @@
 body{
 background-color:rgb(150, 150, 150);
 margin:0;
-   
+font-family: "Roboto", sans-serif;   
 }    
-
-/*Utils*/
+/*utils*/
 .container {
-width: 50%;
-margin: 0 auto;
 background-color: white;
 }
 
-
-.header-content {
+/* header */
+header {
+    height: 70px;
     background-color: white;
-
+    border-bottom:1px;
 }
+
+h1{
+    display:inline-block;
+    font-weight: 700;    
+}
+/* main */
+main {
+    background-color: white;
+}
+/* btn */
+#btn {
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+}
+.blue {
+    background-color: #1E90FF;
+    color:white;
+    border-radius:5px;
+    border-color: transparent;
+    
+}
+.white {    
+    color: rgb(202, 202, 202);
+    border-color: rgb(202, 202, 202);
+    border-radius:5px;
+}
+
+/*card*/
+
+/* ul */
+
 
