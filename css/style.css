@@ -24,33 +24,34 @@ header {
 }
 
 h1{
-    display:inline-block;
-    font-weight: 700;    
+    display:inline;
+    font-weight: 700; 
+    margin-bottom: 20px;
 }
 /* main */
 main {
     background-color: white;
 }
+/*card*/
+
+
 /* btn */
-#btn {
-    background-color: white;
-    padding: 10px;
-    margin: 20px;
-}
 .blue {
     background-color: #1E90FF;
     color:white;
+    padding: 5px;
     border-radius:5px;
     border-color: transparent;
     
 }
 .white {    
+    background-color: white;
     color: rgb(202, 202, 202);
-    border-color: rgb(202, 202, 202);
+    padding: 5px;
     border-radius:5px;
+    border-color: rgb(202, 202, 202);
 }
 
-/*card*/
 
 /* ul */
 
