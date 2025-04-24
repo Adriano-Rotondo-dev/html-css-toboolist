@@ -7,7 +7,7 @@
 
 /*generics*/
 body{
-background-color:rgb(150, 150, 150);
+background-color:rgb(202, 202, 202);
 margin:0;
 font-family: "Roboto", sans-serif;   
 }    
@@ -21,6 +21,7 @@ header {
     height: 70px;
     background-color: white;
     border-bottom:1px;
+    margin-bottom:30px;
 }
 
 h1{
@@ -33,7 +34,11 @@ main {
     background-color: white;
 }
 /*card*/
-
+.card-header{
+    margin:40px auto;
+    max-width: 800px;
+    
+}
 
 /* btn */
 .blue {
@@ -50,9 +55,17 @@ main {
     padding: 5px;
     border-radius:5px;
     border-color: rgb(202, 202, 202);
+    box-shadow: none;    
 }
 
 
 /* ul */
 
+.editorial {
 
+}
+.goal {}
+.recruiting {}
+.mobile {}
+.web {}
+.sale {}
