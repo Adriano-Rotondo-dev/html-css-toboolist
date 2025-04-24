@@ -1,0 +1,19 @@
+/*CSS reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*generics*/
+body{
+background-color:rgb(223, 223, 223);
+margin:0;
+   
+}    
+
+/*Utils*/
+.container {
+width: 50%;
+margin: 0 auto;
+}
