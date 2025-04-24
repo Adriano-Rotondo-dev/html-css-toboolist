@@ -32,6 +32,8 @@ h1{
 /* main */
 main {
     background-color: white;
+    max-width: 1002px;
+    margin: 0 auto;
 }
 /*card*/
 .card-header{
@@ -41,10 +43,10 @@ main {
 }
 
 /* btn */
+  
 .blue {
     background-color: #1E90FF;
     color:white;
-    padding: 5px;
     border-radius:5px;
     border-color: transparent;
     
@@ -60,12 +62,85 @@ main {
 
 
 /* ul */
+ul {
+    list-style: none;
+}
 
-.editorial {
+
+/*span*/
+.check {
+    color: green;
+    border: 1px solid;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 
 }
-.goal {}
-.recruiting {}
-.mobile {}
-.web {}
-.sale {}
+.cross {
+    color: red;
+    border: 1px solid;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.editorial {
+    display:inline-block;
+    color: white;
+    background-color: rgb(72, 156, 212);
+    padding:6px;
+    border-style: none;
+    border-radius: 20px;
+    margin:5px;
+}
+.goal {
+    display:inline-block;
+    color: white;
+    background-color: rgb(98, 12, 116);
+    padding:6px;
+    border-style: none;
+    border-radius: 20px;
+    margin:5px;
+    }
+.recruiting {
+    display:inline-block;
+    color: white;
+    background-color: rgb(32, 161, 133);
+    padding:6px;
+    border-style: none;
+    border-radius: 20px;
+    margin:5px;
+}
+.mobile {
+    display:inline-block;
+    color: white;
+    background-color: rgb(230, 152, 35);
+    padding:6px;
+    border-style: none;
+    border-radius: 20px;
+    margin:5px;
+
+}
+.web {
+    display:inline-block;
+    color: white;
+    background-color:#D863A0;
+    padding:6px;
+    border-style: none;
+    border-radius: 20px;
+    margin:5px;}
+.sale {
+    display:inline-block;
+    color: white;
+    background-color: #B1C928;
+    padding:6px;
+    border-style: none;
+    border-radius: 20px;
+    margin:5px;}
