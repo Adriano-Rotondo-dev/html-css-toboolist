@@ -41,6 +41,9 @@ main {
    padding:1%;
     
 }
+.card-body{
+    padding-left: 1%;
+}
 
 /* btn */
 
@@ -78,7 +81,7 @@ ul {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-
+    margin-right: 5px;
 }
 .cross {
     color: red;
@@ -89,8 +92,7 @@ ul {
    display: inline-flex;
     justify-content: center;
     align-items: center;
-
-
+    margin-right: 5px;
 }
 .editorial {
     display:inline-block;
