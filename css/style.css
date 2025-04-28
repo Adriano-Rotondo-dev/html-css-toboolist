@@ -26,6 +26,9 @@ header {
    }
 #logo{
     display: inline;
+
+}
+img{
     vertical-align: middle;
 }
 h1{    
@@ -33,7 +36,7 @@ h1{
     display:inline;
     font-weight:900;
     font-size:36px;
-    vertical-align: super;
+    vertical-align: middle;
     }
 /* main */
 main {
