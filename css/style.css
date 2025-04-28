@@ -1,4 +1,5 @@
 /*CSS reset*/
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
 }
 
 /*generics*/
+
 body{
 background-color:rgb(202, 202, 202);
 margin:0;
@@ -17,6 +19,7 @@ background-color: white;
 }
 
 /* header */
+
 header {
     height: 70px;
     background-color: white;
@@ -85,7 +88,7 @@ ul {
     padding:1px;
 }
 li{
-    padding-left: 2px auto;
+    padding-left: 2px;
 }
 
 
