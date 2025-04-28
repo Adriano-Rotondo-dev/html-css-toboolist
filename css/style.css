@@ -89,23 +89,23 @@ li{
 .check {
     display:inline-block;
     color: green;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     text-align: center;
     border-radius: 50%;
     border:1px solid green;
-    font-size: 10px;
+    font-size: 80%;
     margin-right: 1%;
 }
 .cross {
     display:inline-block;
     color: red;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     text-align: center;
     border-radius: 50%;
     border:1px solid red;
-    font-size: 10px;
+    font-size: 80%;
     margin-right: 1%;
 }
 .editorial {
