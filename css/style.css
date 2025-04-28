@@ -22,12 +22,14 @@ header {
     background-color: white;
     border-bottom:1px;
     margin-bottom:30px;
-}
+    padding: 10px;
+   }
 
 h1{
     display:inline;
     font-weight: 700; 
     margin-bottom: 20px;
+    vertical-align: middle;
 }
 /* main */
 main {
@@ -46,28 +48,32 @@ main {
 }
 
 /* btn */
+.btn{
+padding: 0 10px;
+}
 
 .blue {
     background-color: #1E90FF;
     color:white;
-    padding:5px;
-    border-radius:5px;
+    padding: 5px;    
     border-color: transparent;
+    border-radius: 5px;
     
 }
 .white {    
     background-color: white;
     color: rgb(202, 202, 202);
     padding: 5px;
-    border:1px solid;
-    border-radius:5px;
+    border:1px solid;    
     border-color: rgb(202, 202, 202);
+    border-radius: 5px;
 }
 
 
 /* ul */
 ul {
     list-style: none;
+    padding:1px;
 }
 
 
@@ -102,6 +108,7 @@ ul {
     border-style: none;
     border-radius: 20px;
     margin:5px;
+    font-size: small;
 }
 .goal {
     display:inline-block;
@@ -111,6 +118,7 @@ ul {
     border-style: none;
     border-radius: 20px;
     margin:5px;
+    font-size: small;
     }
 .recruiting {
     display:inline-block;
@@ -120,6 +128,7 @@ ul {
     border-style: none;
     border-radius: 20px;
     margin:5px;
+    font-size: small;
 }
 .mobile {
     display:inline-block;
@@ -129,7 +138,7 @@ ul {
     border-style: none;
     border-radius: 20px;
     margin:5px;
-
+    font-size: small;
 }
 .web {
     display:inline-block;
@@ -138,7 +147,9 @@ ul {
     padding:6px;
     border-style: none;
     border-radius: 20px;
-    margin:5px;}
+    margin:5px;
+    font-size: small;}
+
 .sale {
     display:inline-block;
     color: white;
@@ -146,4 +157,6 @@ ul {
     padding:6px;
     border-style: none;
     border-radius: 20px;
-    margin:5px;}
+    margin:5px;
+    font-size: small;
+}
