@@ -28,7 +28,8 @@ header {
     display: inline;
     vertical-align: middle;
 }
-h1{
+h1{    
+    line-height:70px;
     display:inline;
     font-weight:900;
     font-size:36px;
